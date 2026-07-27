@@ -206,13 +206,6 @@ From the project root:
 ufbt
 ```
 
-If this project is kept as a subdirectory in the current local workspace and uses the adjacent virtual environment:
-
-```sh
-cd /Users/icefox/Repo/flipper/ac_scheduler
-../.venv/bin/ufbt
-```
-
 Build output:
 
 ```text
@@ -225,13 +218,6 @@ Connect the Flipper over USB and run:
 
 ```sh
 ufbt launch
-```
-
-Or with the local uFBT environment:
-
-```sh
-cd /Users/icefox/Repo/flipper/ac_scheduler
-../.venv/bin/ufbt launch
 ```
 
 `ufbt launch` builds the app, copies the FAP to the Flipper, and starts it.
