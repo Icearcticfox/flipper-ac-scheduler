@@ -11,8 +11,8 @@ build/
 *.o
 *.d
 
-# Generated local IntelliSense database with absolute SDK paths
-.vscode/compile_commands.json
+# Local editor settings and generated IntelliSense database
+.vscode/
 
 # Python / virtual environments
 .venv/
