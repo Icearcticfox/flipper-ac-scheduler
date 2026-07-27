@@ -1,0 +1,13 @@
+App(
+    appid="ac_scheduler",
+    name="AC Scheduler",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ac_scheduler_app",
+    sources=["src/*.c"],
+    stack_size=4096,
+    fap_category="Tools",
+    fap_version="0.1.0",
+    fap_description="Time-based IR scheduler for an air conditioner",
+    fap_icon="ac_scheduler.png",
+    fap_libs=["infrared"],
+)

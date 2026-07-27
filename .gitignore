@@ -1,0 +1,28 @@
+# uFBT / build output
+dist/
+build/
+.ufbt/
+*.fap
+*.elf
+*.dfu
+*.bin
+*.hex
+*.map
+*.o
+*.d
+
+# Generated local IntelliSense database with absolute SDK paths
+.vscode/compile_commands.json
+
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
